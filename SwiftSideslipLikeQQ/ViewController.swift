@@ -193,7 +193,7 @@ class ViewController: UIViewController {
 
             // 为了演示效果，在右侧菜单划出时隐藏漏出的左侧菜单，并无实际意义
             self.leftViewController.view.alpha = showWhat == "right" ? 0 : 1
-            }, completion: nil)
+            }, completion: nil) 
     }
 
 }
