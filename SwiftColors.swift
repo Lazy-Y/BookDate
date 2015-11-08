@@ -26,7 +26,7 @@
 #else
   import Cocoa
   typealias SWColor = NSColor
-#endif
+#endif 
 
 extension SWColor {
   /**
