@@ -21,6 +21,9 @@
 		466C00881AD832D9002ED354 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C00871AD832D9002ED354 /* Common.swift */; };
 		466C008D1AD9071A002ED354 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 466C008C1AD9071A002ED354 /* README.md */; };
 		466C008F1AD92447002ED354 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C008E1AD92447002ED354 /* LeftViewController.swift */; };
+		B8A6E82C1C198A28006A9D74 /* BidHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6E82B1C198A28006A9D74 /* BidHomeViewController.swift */; };
+		B8A6E82E1C198A43006A9D74 /* SellHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6E82D1C198A43006A9D74 /* SellHomeViewController.swift */; };
+		B8A6E8301C198A52006A9D74 /* DateHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6E82F1C198A52006A9D74 /* DateHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		466C00871AD832D9002ED354 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		466C008C1AD9071A002ED354 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		466C008E1AD92447002ED354 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		B8A6E82B1C198A28006A9D74 /* BidHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidHomeViewController.swift; sourceTree = "<group>"; };
+		B8A6E82D1C198A43006A9D74 /* SellHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellHomeViewController.swift; sourceTree = "<group>"; };
+		B8A6E82F1C198A52006A9D74 /* DateHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 				466C008E1AD92447002ED354 /* LeftViewController.swift */,
 				4642DDB61ADA7BAA00D0F32B /* OtherPageViewController.swift */,
 				4659330E1AD7F60700969878 /* Main.storyboard */,
+				B8A6E82B1C198A28006A9D74 /* BidHomeViewController.swift */,
+				B8A6E82D1C198A43006A9D74 /* SellHomeViewController.swift */,
+				B8A6E82F1C198A52006A9D74 /* DateHomeViewController.swift */,
 				465933111AD7F60700969878 /* Images.xcassets */,
 				465933131AD7F60700969878 /* LaunchScreen.xib */,
 				465933081AD7F60700969878 /* Supporting Files */,
@@ -242,10 +251,13 @@
 				4642DDB51ADA76DA00D0F32B /* SwiftColors.swift in Sources */,
 				466C00881AD832D9002ED354 /* Common.swift in Sources */,
 				46617ED61AF3E4C5008F038F /* MainTabBarController.swift in Sources */,
+				B8A6E82C1C198A28006A9D74 /* BidHomeViewController.swift in Sources */,
 				4659330D1AD7F60700969878 /* ViewController.swift in Sources */,
 				466C008D1AD9071A002ED354 /* README.md in Sources */,
 				466C008F1AD92447002ED354 /* LeftViewController.swift in Sources */,
 				4659330B1AD7F60700969878 /* AppDelegate.swift in Sources */,
+				B8A6E82E1C198A43006A9D74 /* SellHomeViewController.swift in Sources */,
+				B8A6E8301C198A52006A9D74 /* DateHomeViewController.swift in Sources */,
 				4642DDB71ADA7BAA00D0F32B /* OtherPageViewController.swift in Sources */,
 				4659332B1AD7FB0E00969878 /* HomeViewController.swift in Sources */,
 			);

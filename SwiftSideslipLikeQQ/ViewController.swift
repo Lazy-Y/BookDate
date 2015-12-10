@@ -24,6 +24,10 @@ class ViewController: UIViewController {
     // 侧滑菜单视图的来源
     var leftViewController: LeftViewController!
     
+    var bidHomeViewController: BidHomeViewController!
+    var sellHomeViewController: SellHomeViewController!
+    var dateHomeViewController: DateHomeViewController!
+    
     // 构造主视图，实现 UINavigationController.view 和 HomeViewController.view 一起缩放
     var mainView: UIView!
     
@@ -80,8 +84,12 @@ class ViewController: UIViewController {
         // 我们将其（指针）取出，赋给容器 View Controller 的成员变量 homeViewController
         homeViewController = homeNavigationController.viewControllers.first as! HomeViewController
         // 分别将 Navigation Bar 和 homeViewController 的视图加入 TabBar Controller 的视图
-        tabBarView.addSubview(homeViewController.navigationController!.view)
-        tabBarView.addSubview(homeViewController.view)
+        mainView.addSubview(homeViewController.navigationController!.view)
+        mainView.addSubview(homeViewController.view)
+        
+        ///// from Frank
+        //tabBarView.addSubview(homeViewController.navigationController!.view)////////////////
+        //tabBarView.addSubview(homeViewController.view)
         
         // 在 TabBar Controller 的视图中，将 TabBar 视图提到最表层
         tabBarView.bringSubviewToFront(mainTabBarController.tabBar)
@@ -92,6 +100,9 @@ class ViewController: UIViewController {
         // 分别指定 Navigation Bar 左右两侧按钮的事件
         homeViewController.navigationItem.leftBarButtonItem?.action = Selector("showLeft")
         homeViewController.navigationItem.rightBarButtonItem?.action = Selector("showRight")
+        
+        mainTabBarController.navigationItem.leftBarButtonItem?.action = Selector("showLeft")
+        mainTabBarController.navigationItem.rightBarButtonItem?.action = Selector("showRight")
         
         // 给主视图绑定 UIPanGestureRecognizer
         let panGesture = homeViewController.panGesture

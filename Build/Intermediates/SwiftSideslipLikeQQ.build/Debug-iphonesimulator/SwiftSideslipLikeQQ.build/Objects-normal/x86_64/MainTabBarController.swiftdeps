@@ -1,0 +1,403 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainTabBarController"
+provides-nominal:
+- "C19SwiftSideslipLikeQQ20MainTabBarController"
+provides-member:
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "tabBar"
+depends-top-level:
+- "UITabBar"
+- !private "~="
+- !private "Common"
+- !private "print"
+- "UITabBarItem"
+- "MainTabBarController"
+- "UITabBarController"
+depends-member:
+- !private ["PSs9AnyObject", "Common"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "bringSubviewToFront"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "mainTabBarController"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "removeFromSuperview"]
+- ["PSs9AnyObject", "tabBar"]
+- !private ["PSs9AnyObject", "tag"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Common"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "bringSubviewToFront"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "mainTabBarController"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "removeFromSuperview"]
+- ["PSs11CVarArgType", "tabBar"]
+- !private ["PSs11CVarArgType", "tag"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["V19SwiftSideslipLikeQQ6Common", "contactsVC"]
+- !private ["V19SwiftSideslipLikeQQ6Common", "rootViewController"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Common"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "bringSubviewToFront"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "mainTabBarController"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "removeFromSuperview"]
+- ["PSs23CustomStringConvertible", "tabBar"]
+- !private ["PSs23CustomStringConvertible", "tag"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Common"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "bringSubviewToFront"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "mainTabBarController"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "removeFromSuperview"]
+- ["PSs9Equatable", "tabBar"]
+- !private ["PSs9Equatable", "tag"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Common"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "bringSubviewToFront"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "mainTabBarController"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "removeFromSuperview"]
+- ["PSs8Hashable", "tabBar"]
+- !private ["PSs8Hashable", "tag"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["C19SwiftSideslipLikeQQ20MainTabBarController", "Common"]
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", "UITabBar"]
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", "UITabBarItem"]
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", "deinit"]
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", "didReceiveMemoryWarning"]
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", "init"]
+- !private ["C19SwiftSideslipLikeQQ20MainTabBarController", "print"]
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", "tabBar"]
+- !private ["C19SwiftSideslipLikeQQ20MainTabBarController", "view"]
+- ["C19SwiftSideslipLikeQQ20MainTabBarController", "viewDidLoad"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSo8NSCoding", "Common"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "bringSubviewToFront"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mainTabBarController"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "removeFromSuperview"]
+- ["PSo8NSCoding", "tabBar"]
+- !private ["PSo8NSCoding", "tag"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "Common"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "mainTabBarController"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "tabBar"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "Common"]
+- ["CSo8NSObject", "UITabBar"]
+- ["CSo8NSObject", "UITabBarItem"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "bringSubviewToFront"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainTabBarController"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "removeFromSuperview"]
+- ["CSo8NSObject", "tabBar"]
+- !private ["CSo8NSObject", "tag"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Common"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "bringSubviewToFront"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainTabBarController"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
+- ["PSo16NSObjectProtocol", "tabBar"]
+- !private ["PSo16NSObjectProtocol", "tag"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "bringSubviewToFront"]
+- !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
+- !private ["PSo29UIAccessibilityIdentification", "tag"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "bringSubviewToFront"]
+- !private ["PSo12UIAppearance", "removeFromSuperview"]
+- !private ["PSo12UIAppearance", "tag"]
+- !private ["PSo21UIAppearanceContainer", "Common"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "bringSubviewToFront"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "mainTabBarController"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "removeFromSuperview"]
+- ["PSo21UIAppearanceContainer", "tabBar"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo9UIBarItem", "tag"]
+- !private ["PSo18UIContentContainer", "Common"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "mainTabBarController"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "tabBar"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "bringSubviewToFront"]
+- !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "bringSubviewToFront"]
+- !private ["PSo13UIDynamicItem", "removeFromSuperview"]
+- !private ["PSo18UIFocusEnvironment", "Common"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "bringSubviewToFront"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "mainTabBarController"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "removeFromSuperview"]
+- ["PSo18UIFocusEnvironment", "tabBar"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "Common"]
+- ["CSo11UIResponder", "UITabBar"]
+- ["CSo11UIResponder", "UITabBarItem"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "bringSubviewToFront"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "mainTabBarController"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "removeFromSuperview"]
+- ["CSo11UIResponder", "tabBar"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "Common"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "mainTabBarController"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "tabBar"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo18UITabBarController", "Common"]
+- ["CSo18UITabBarController", "UITabBar"]
+- ["CSo18UITabBarController", "UITabBarItem"]
+- ["CSo18UITabBarController", "didReceiveMemoryWarning"]
+- ["CSo18UITabBarController", "init"]
+- !private ["CSo18UITabBarController", "print"]
+- ["CSo18UITabBarController", "tabBar"]
+- !private ["CSo18UITabBarController", "view"]
+- ["CSo18UITabBarController", "viewDidLoad"]
+- ["CSo18UITabBarController", ""]
+- !private ["PSo16UITabBarDelegate", "Common"]
+- ["PSo16UITabBarDelegate", "didReceiveMemoryWarning"]
+- ["PSo16UITabBarDelegate", "init"]
+- !private ["PSo16UITabBarDelegate", "print"]
+- ["PSo16UITabBarDelegate", "tabBar"]
+- !private ["PSo16UITabBarDelegate", "view"]
+- ["PSo16UITabBarDelegate", "viewDidLoad"]
+- ["PSo16UITabBarDelegate", ""]
+- !private ["CSo12UITabBarItem", "tag"]
+- !private ["PSo18UITraitEnvironment", "Common"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "bringSubviewToFront"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "mainTabBarController"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "removeFromSuperview"]
+- ["PSo18UITraitEnvironment", "tabBar"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "bringSubviewToFront"]
+- !private ["CSo6UIView", "removeFromSuperview"]
+- !private ["CSo16UIViewController", "Common"]
+- ["CSo16UIViewController", "UITabBar"]
+- ["CSo16UIViewController", "UITabBarItem"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "mainTabBarController"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "tabBar"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["C19SwiftSideslipLikeQQ14ViewController", "mainTabBarController"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "bringSubviewToFront"]
+- !private ["PSs12_Reflectable", "removeFromSuperview"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "V19SwiftSideslipLikeQQ6Common"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "C19SwiftSideslipLikeQQ20MainTabBarController"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo7NSValue"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo9UIBarItem"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "CSo18UITabBarController"
+- "PSo16UITabBarDelegate"
+- !private "CSo12UITabBarItem"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "C19SwiftSideslipLikeQQ14ViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "4154ba87a9dfbbe570c603b2e8fdf7eb"

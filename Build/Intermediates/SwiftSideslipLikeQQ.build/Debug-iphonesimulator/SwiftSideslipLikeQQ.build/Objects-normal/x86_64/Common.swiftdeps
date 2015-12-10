@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Common"
+provides-nominal:
+- "V19SwiftSideslipLikeQQ6Common"
+provides-member:
+- ["V19SwiftSideslipLikeQQ6Common", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ViewController"
+- "UIApplication"
+- "UIStoryboard"
+- "UIScreen"
+- "StringLiteralType"
+- "Common"
+depends-member:
+- ["PSs9AnyObject", "applicationFrame"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "instantiateViewControllerWithIdentifier"]
+- ["PSs9AnyObject", "keyWindow"]
+- ["PSs9AnyObject", "mainScreen"]
+- ["PSs9AnyObject", "rootViewController"]
+- ["PSs9AnyObject", "sharedApplication"]
+- ["VSC6CGRect", "maxX"]
+- ["VSC6CGRect", "maxY"]
+- ["PSs11CVarArgType", "applicationFrame"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- ["PSs11CVarArgType", "keyWindow"]
+- ["PSs11CVarArgType", "mainScreen"]
+- ["PSs11CVarArgType", "rootViewController"]
+- ["PSs11CVarArgType", "sharedApplication"]
+- ["V19SwiftSideslipLikeQQ6Common", "UIApplication"]
+- ["V19SwiftSideslipLikeQQ6Common", "UIScreen"]
+- ["V19SwiftSideslipLikeQQ6Common", "UIStoryboard"]
+- ["V19SwiftSideslipLikeQQ6Common", "ViewController"]
+- ["V19SwiftSideslipLikeQQ6Common", "contactsVC"]
+- ["V19SwiftSideslipLikeQQ6Common", "init"]
+- ["V19SwiftSideslipLikeQQ6Common", "rootViewController"]
+- ["V19SwiftSideslipLikeQQ6Common", "screenHeight"]
+- ["V19SwiftSideslipLikeQQ6Common", "screenWidth"]
+- ["PSs23CustomStringConvertible", "applicationFrame"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- ["PSs23CustomStringConvertible", "keyWindow"]
+- ["PSs23CustomStringConvertible", "mainScreen"]
+- ["PSs23CustomStringConvertible", "rootViewController"]
+- ["PSs23CustomStringConvertible", "sharedApplication"]
+- ["PSs9Equatable", "applicationFrame"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "instantiateViewControllerWithIdentifier"]
+- ["PSs9Equatable", "keyWindow"]
+- ["PSs9Equatable", "mainScreen"]
+- ["PSs9Equatable", "maxX"]
+- ["PSs9Equatable", "maxY"]
+- ["PSs9Equatable", "rootViewController"]
+- ["PSs9Equatable", "sharedApplication"]
+- ["PSs8Hashable", "applicationFrame"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "instantiateViewControllerWithIdentifier"]
+- ["PSs8Hashable", "keyWindow"]
+- ["PSs8Hashable", "mainScreen"]
+- ["PSs8Hashable", "rootViewController"]
+- ["PSs8Hashable", "sharedApplication"]
+- ["PSo8NSCoding", "rootViewController"]
+- ["CSo8NSObject", "applicationFrame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- ["CSo8NSObject", "keyWindow"]
+- ["CSo8NSObject", "mainScreen"]
+- ["CSo8NSObject", "rootViewController"]
+- ["CSo8NSObject", "sharedApplication"]
+- ["PSo16NSObjectProtocol", "applicationFrame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- ["PSo16NSObjectProtocol", "keyWindow"]
+- ["PSo16NSObjectProtocol", "mainScreen"]
+- ["PSo16NSObjectProtocol", "rootViewController"]
+- ["PSo16NSObjectProtocol", "sharedApplication"]
+- ["Sq", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- ["PSo12UIAppearance", "rootViewController"]
+- ["PSo21UIAppearanceContainer", "rootViewController"]
+- ["CSo13UIApplication", "keyWindow"]
+- ["CSo13UIApplication", "sharedApplication"]
+- ["PSo17UICoordinateSpace", "rootViewController"]
+- ["PSo13UIDynamicItem", "rootViewController"]
+- ["PSo18UIFocusEnvironment", "rootViewController"]
+- ["CSo11UIResponder", "keyWindow"]
+- ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "sharedApplication"]
+- ["CSo8UIScreen", "applicationFrame"]
+- ["CSo8UIScreen", "mainScreen"]
+- ["CSo12UIStoryboard", "init"]
+- ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- ["PSo18UITraitEnvironment", "applicationFrame"]
+- ["PSo18UITraitEnvironment", "mainScreen"]
+- ["PSo18UITraitEnvironment", "rootViewController"]
+- ["CSo6UIView", "rootViewController"]
+- ["CSo8UIWindow", "rootViewController"]
+- ["PSs12_Reflectable", "maxX"]
+- ["PSs12_Reflectable", "maxY"]
+- ["PSs12_Reflectable", "rootViewController"]
+depends-nominal:
+- "PSs9AnyObject"
+- "VSC6CGRect"
+- "PSs11CVarArgType"
+- "V19SwiftSideslipLikeQQ6Common"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo13UIApplication"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "CSo8UIScreen"
+- "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "CSo8UIWindow"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "d3f38d62bcc80fa4881bd09ea30fd073"
