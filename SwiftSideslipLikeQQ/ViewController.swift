@@ -168,7 +168,7 @@ class ViewController: UIViewController {
         // 计算距离，执行菜单自动滑动动画
         distance = self.view.center.x * (FullDistance*2 + Proportion - 1)
         doTheAnimate(self.Proportion, showWhat: "left")
-        homeNavigationController.popToRootViewControllerAnimated(true)
+        //homeNavigationController.popToRootViewControllerAnimated(true)
     }
     // 展示主视图
     func showHome() {

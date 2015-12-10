@@ -7,32 +7,34 @@ provides-member:
 - ["C19SwiftSideslipLikeQQ11AppDelegate", ""]
 provides-dynamic-lookup:
 - "applicationWillTerminate"
-- "applicationWillResignActive"
+- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
 - "application"
 - "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
 - "window"
-- "applicationDidBecomeActive"
+- "applicationWillResignActive"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "AnyObject"
-- "UIApplication"
-- !private "UIColor"
-- "AppDelegate"
-- !private "Dictionary"
-- "Bool"
-- "UIWindow"
+- !private "UITabBar"
 - "UIApplicationDelegate"
-- "UIResponder"
-- !private "UINavigationBar"
-- "NSObject"
-- !private "UIStatusBarStyle"
 - !private "NSForegroundColorAttributeName"
+- !private "Dictionary"
+- !private "BooleanLiteralType"
+- !private "UIStatusBarStyle"
+- !private "UINavigationBar"
+- "AppDelegate"
+- "UIApplication"
+- "Bool"
+- "AnyObject"
+- "UIResponder"
+- "UIWindow"
+- "NSObject"
+- !private "UIColor"
 depends-member:
 - !private ["PSs9AnyObject", "NSForegroundColorAttributeName"]
 - !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UINavigationBar"]
 - !private ["PSs9AnyObject", "UIStatusBarStyle"]
+- !private ["PSs9AnyObject", "UITabBar"]
 - !private ["PSs9AnyObject", "appearance"]
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -63,6 +65,7 @@ depends-member:
 - !private ["C19SwiftSideslipLikeQQ11AppDelegate", "UIColor"]
 - !private ["C19SwiftSideslipLikeQQ11AppDelegate", "UINavigationBar"]
 - !private ["C19SwiftSideslipLikeQQ11AppDelegate", "UIStatusBarStyle"]
+- !private ["C19SwiftSideslipLikeQQ11AppDelegate", "UITabBar"]
 - ["C19SwiftSideslipLikeQQ11AppDelegate", "UIWindow"]
 - ["C19SwiftSideslipLikeQQ11AppDelegate", "application"]
 - ["C19SwiftSideslipLikeQQ11AppDelegate", "applicationDidBecomeActive"]
@@ -83,6 +86,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UINavigationBar"]
 - !private ["PSs11CVarArgType", "UIStatusBarStyle"]
+- !private ["PSs11CVarArgType", "UITabBar"]
 - !private ["PSs11CVarArgType", "appearance"]
 - ["PSs11CVarArgType", "application"]
 - ["PSs11CVarArgType", "applicationDidBecomeActive"]
@@ -114,6 +118,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UINavigationBar"]
 - !private ["PSs23CustomStringConvertible", "UIStatusBarStyle"]
+- !private ["PSs23CustomStringConvertible", "UITabBar"]
 - !private ["PSs23CustomStringConvertible", "Value"]
 - !private ["PSs23CustomStringConvertible", "appearance"]
 - ["PSs23CustomStringConvertible", "application"]
@@ -146,6 +151,7 @@ depends-member:
 - !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UINavigationBar"]
 - !private ["PSs9Equatable", "UIStatusBarStyle"]
+- !private ["PSs9Equatable", "UITabBar"]
 - !private ["PSs9Equatable", "appearance"]
 - ["PSs9Equatable", "application"]
 - ["PSs9Equatable", "applicationDidBecomeActive"]
@@ -173,6 +179,7 @@ depends-member:
 - !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UINavigationBar"]
 - !private ["PSs8Hashable", "UIStatusBarStyle"]
+- !private ["PSs8Hashable", "UITabBar"]
 - !private ["PSs8Hashable", "appearance"]
 - ["PSs8Hashable", "application"]
 - ["PSs8Hashable", "applicationDidBecomeActive"]
@@ -214,6 +221,7 @@ depends-member:
 - !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UINavigationBar"]
 - !private ["CSo8NSObject", "UIStatusBarStyle"]
+- !private ["CSo8NSObject", "UITabBar"]
 - ["CSo8NSObject", "UIWindow"]
 - !private ["CSo8NSObject", "appearance"]
 - ["CSo8NSObject", "application"]
@@ -240,6 +248,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UINavigationBar"]
 - !private ["PSo16NSObjectProtocol", "UIStatusBarStyle"]
+- !private ["PSo16NSObjectProtocol", "UITabBar"]
 - !private ["PSo16NSObjectProtocol", "appearance"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
@@ -288,6 +297,7 @@ depends-member:
 - !private ["PSo21UIApplicationDelegate", "UIColor"]
 - !private ["PSo21UIApplicationDelegate", "UINavigationBar"]
 - !private ["PSo21UIApplicationDelegate", "UIStatusBarStyle"]
+- !private ["PSo21UIApplicationDelegate", "UITabBar"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -337,6 +347,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UINavigationBar"]
 - !private ["CSo11UIResponder", "UIStatusBarStyle"]
+- !private ["CSo11UIResponder", "UITabBar"]
 - ["CSo11UIResponder", "UIWindow"]
 - !private ["CSo11UIResponder", "appearance"]
 - ["CSo11UIResponder", "application"]
@@ -360,6 +371,10 @@ depends-member:
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
 - !private ["OSC16UIStatusBarStyle", "LightContent"]
+- !private ["CSo8UITabBar", "appearance"]
+- !private ["CSo8UITabBar", "barTintColor"]
+- !private ["CSo8UITabBar", "tintColor"]
+- !private ["CSo8UITabBar", "translucent"]
 - !private ["PSo18UITraitEnvironment", "appearance"]
 - !private ["PSo18UITraitEnvironment", "barTintColor"]
 - !private ["PSo18UITraitEnvironment", "tintColor"]
@@ -414,6 +429,7 @@ depends-nominal:
 - !private "CSo15UINavigationBar"
 - "CSo11UIResponder"
 - !private "OSC16UIStatusBarStyle"
+- !private "CSo8UITabBar"
 - !private "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - !private "PSs24_ColorLiteralConvertible"

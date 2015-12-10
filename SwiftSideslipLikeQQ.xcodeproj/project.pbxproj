@@ -104,7 +104,6 @@
 				4659330A1AD7F60700969878 /* AppDelegate.swift */,
 				4659330C1AD7F60700969878 /* ViewController.swift */,
 				4659332A1AD7FB0E00969878 /* HomeViewController.swift */,
-				466C008E1AD92447002ED354 /* LeftViewController.swift */,
 				4642DDB61ADA7BAA00D0F32B /* OtherPageViewController.swift */,
 				4659330E1AD7F60700969878 /* Main.storyboard */,
 				B8A6E82B1C198A28006A9D74 /* BidHomeViewController.swift */,
@@ -115,6 +114,7 @@
 				465933081AD7F60700969878 /* Supporting Files */,
 				466C00871AD832D9002ED354 /* Common.swift */,
 				46617ED41AF3E4C5008F038F /* MainTabBarController.swift */,
+				466C008E1AD92447002ED354 /* LeftViewController.swift */,
 				46617ED51AF3E4C5008F038F /* MainTabBarController.xib */,
 			);
 			path = SwiftSideslipLikeQQ;

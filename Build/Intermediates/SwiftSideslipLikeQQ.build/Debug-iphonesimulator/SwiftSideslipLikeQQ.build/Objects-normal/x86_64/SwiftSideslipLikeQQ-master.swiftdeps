@@ -1,15 +1,15 @@
 version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
 options: "b5b02d93f212e93262ab0a9debd87bf9"
-build_time: [503059610, 62112000]
+build_time: [503061250, 74449000]
 inputs:
-  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/DateHomeViewController.swift": [503058258, 0]
-  "/Users/zhangtianchen/Desktop/BookDate/SwiftColors.swift": [503056422, 0]
-  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/LeftViewController.swift": [503056422, 0]
-  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/AppDelegate.swift": [503056422, 0]
-  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/MainTabBarController.swift": [503056422, 0]
-  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/BidHomeViewController.swift": [503058215, 0]
-  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/ViewController.swift": [503059608, 0]
   "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/OtherPageViewController.swift": [503056422, 0]
+  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/AppDelegate.swift": [503061009, 0]
   "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/Common.swift": [503056422, 0]
+  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/BidHomeViewController.swift": [503058215, 0]
+  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/MainTabBarController.swift": [503056422, 0]
+  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/DateHomeViewController.swift": [503058258, 0]
+  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/LeftViewController.swift": [503056422, 0]
+  "/Users/zhangtianchen/Desktop/BookDate/SwiftColors.swift": [503056422, 0]
   "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/HomeViewController.swift": [503058005, 0]
   "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/SellHomeViewController.swift": [503058242, 0]
+  "/Users/zhangtianchen/Desktop/BookDate/SwiftSideslipLikeQQ/ViewController.swift": [503061249, 0]

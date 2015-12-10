@@ -6,73 +6,72 @@ provides-nominal:
 provides-member:
 - ["C19SwiftSideslipLikeQQ14ViewController", ""]
 provides-dynamic-lookup:
-- "FullDistance"
-- "proportionOfLeftView"
-- "pan"
-- "homeNavigationController"
-- "leftViewController"
-- "dateHomeViewController"
-- "didReceiveMemoryWarning"
 - "showRight"
-- "mainTabBarController"
-- "distance"
-- "viewDidLoad"
-- "showLeft"
-- "tapGesture"
-- "showHome"
+- "Proportion"
 - "sellHomeViewController"
-- "doTheAnimate"
 - "distanceOfLeftView"
 - "homeViewController"
-- "bidHomeViewController"
-- "blackCover"
-- "Proportion"
+- "viewDidLoad"
+- "mainTabBarController"
 - "mainView"
+- "didReceiveMemoryWarning"
+- "bidHomeViewController"
+- "proportionOfLeftView"
+- "leftViewController"
+- "pan"
+- "FullDistance"
+- "homeNavigationController"
+- "dateHomeViewController"
+- "blackCover"
+- "showHome"
+- "doTheAnimate"
+- "tapGesture"
+- "showLeft"
+- "distance"
 depends-top-level:
-- !private "UIImage"
-- !private "<="
-- !private "UIGestureRecognizerState"
-- !private ">="
-- "LeftViewController"
-- !private "StringLiteralType"
-- !private "Common"
-- "DateHomeViewController"
-- !private "+"
-- "UINavigationController"
-- !private ">"
-- !private "CGRectOffset"
-- "ViewController"
-- "CGPoint"
-- "CGFloat"
-- !private "/"
-- !private "*"
-- !private "Void"
-- !private "UIViewAnimationOptions"
-- !private "<"
-- "HomeViewController"
 - !private "*="
-- "SellHomeViewController"
-- "UIViewController"
-- !private "+="
-- !private "UIColor"
-- "UITapGestureRecognizer"
-- !private "CGPointMake"
-- !private "=="
+- !private "Void"
 - !private "UIStoryboard"
-- "String"
-- !private "Selector"
-- !private "BooleanLiteralType"
-- "MainTabBarController"
-- "UIPanGestureRecognizer"
-- !private "CGAffineTransformIdentity"
-- !private "/="
-- "BidHomeViewController"
-- !private "NSBundle"
-- !private "UIScreen"
+- !private "StringLiteralType"
+- !private "CGPointMake"
 - "UIView"
-- !private "UIImageView"
+- !private "Selector"
+- !private "+="
+- "UIPanGestureRecognizer"
 - !private "-"
+- !private "CGAffineTransformIdentity"
+- "String"
+- !private "Common"
+- !private "UIViewAnimationOptions"
 - !private "CGAffineTransformScale"
+- !private "+"
+- !private "UIColor"
+- !private "UIScreen"
+- "ViewController"
+- !private "NSBundle"
+- !private "<="
+- !private "*"
+- !private "<"
+- !private "/"
+- "MainTabBarController"
+- "DateHomeViewController"
+- "UITapGestureRecognizer"
+- !private "UIGestureRecognizerState"
+- !private "UIImage"
+- "LeftViewController"
+- !private ">="
+- !private ">"
+- !private "/="
+- "CGPoint"
+- !private "=="
+- !private "CGRectOffset"
+- "HomeViewController"
+- "UINavigationController"
+- "CGFloat"
+- "BidHomeViewController"
+- "UIViewController"
+- !private "UIImageView"
+- "SellHomeViewController"
 depends-member:
 - !private ["PSs9AnyObject", "CGAffineTransformIdentity"]
 - !private ["PSs9AnyObject", "CGAffineTransformScale"]
@@ -127,7 +126,6 @@ depends-member:
 - !private ["PSs9AnyObject", "navigationItem"]
 - ["PSs9AnyObject", "pan"]
 - !private ["PSs9AnyObject", "panGesture"]
-- !private ["PSs9AnyObject", "popToRootViewControllerAnimated"]
 - ["PSs9AnyObject", "proportionOfLeftView"]
 - !private ["PSs9AnyObject", "removeGestureRecognizer"]
 - !private ["PSs9AnyObject", "rightBarButtonItem"]
@@ -224,7 +222,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "navigationItem"]
 - ["PSs11CVarArgType", "pan"]
 - !private ["PSs11CVarArgType", "panGesture"]
-- !private ["PSs11CVarArgType", "popToRootViewControllerAnimated"]
 - ["PSs11CVarArgType", "proportionOfLeftView"]
 - !private ["PSs11CVarArgType", "removeGestureRecognizer"]
 - !private ["PSs11CVarArgType", "rightBarButtonItem"]
@@ -315,7 +312,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "navigationItem"]
 - ["PSs23CustomStringConvertible", "pan"]
 - !private ["PSs23CustomStringConvertible", "panGesture"]
-- !private ["PSs23CustomStringConvertible", "popToRootViewControllerAnimated"]
 - ["PSs23CustomStringConvertible", "proportionOfLeftView"]
 - !private ["PSs23CustomStringConvertible", "removeGestureRecognizer"]
 - !private ["PSs23CustomStringConvertible", "rightBarButtonItem"]
@@ -394,7 +390,6 @@ depends-member:
 - !private ["PSs9Equatable", "origin"]
 - ["PSs9Equatable", "pan"]
 - !private ["PSs9Equatable", "panGesture"]
-- !private ["PSs9Equatable", "popToRootViewControllerAnimated"]
 - ["PSs9Equatable", "proportionOfLeftView"]
 - !private ["PSs9Equatable", "removeGestureRecognizer"]
 - !private ["PSs9Equatable", "rightBarButtonItem"]
@@ -477,7 +472,6 @@ depends-member:
 - !private ["PSs8Hashable", "navigationItem"]
 - ["PSs8Hashable", "pan"]
 - !private ["PSs8Hashable", "panGesture"]
-- !private ["PSs8Hashable", "popToRootViewControllerAnimated"]
 - ["PSs8Hashable", "proportionOfLeftView"]
 - !private ["PSs8Hashable", "removeGestureRecognizer"]
 - !private ["PSs8Hashable", "rightBarButtonItem"]
@@ -583,7 +577,6 @@ depends-member:
 - !private ["PSo8NSCoding", "navigationItem"]
 - ["PSo8NSCoding", "pan"]
 - !private ["PSo8NSCoding", "panGesture"]
-- !private ["PSo8NSCoding", "popToRootViewControllerAnimated"]
 - ["PSo8NSCoding", "proportionOfLeftView"]
 - !private ["PSo8NSCoding", "removeGestureRecognizer"]
 - !private ["PSo8NSCoding", "rightBarButtonItem"]
@@ -635,7 +628,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - ["PSo26NSExtensionRequestHandling", "pan"]
 - !private ["PSo26NSExtensionRequestHandling", "panGesture"]
-- !private ["PSo26NSExtensionRequestHandling", "popToRootViewControllerAnimated"]
 - ["PSo26NSExtensionRequestHandling", "proportionOfLeftView"]
 - ["PSo26NSExtensionRequestHandling", "sellHomeViewController"]
 - ["PSo26NSExtensionRequestHandling", "showHome"]
@@ -712,7 +704,6 @@ depends-member:
 - !private ["CSo8NSObject", "navigationItem"]
 - ["CSo8NSObject", "pan"]
 - !private ["CSo8NSObject", "panGesture"]
-- !private ["CSo8NSObject", "popToRootViewControllerAnimated"]
 - ["CSo8NSObject", "proportionOfLeftView"]
 - !private ["CSo8NSObject", "removeGestureRecognizer"]
 - !private ["CSo8NSObject", "rightBarButtonItem"]
@@ -781,7 +772,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
 - ["PSo16NSObjectProtocol", "pan"]
 - !private ["PSo16NSObjectProtocol", "panGesture"]
-- !private ["PSo16NSObjectProtocol", "popToRootViewControllerAnimated"]
 - ["PSo16NSObjectProtocol", "proportionOfLeftView"]
 - !private ["PSo16NSObjectProtocol", "removeGestureRecognizer"]
 - !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
@@ -897,7 +887,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - ["PSo21UIAppearanceContainer", "pan"]
 - !private ["PSo21UIAppearanceContainer", "panGesture"]
-- !private ["PSo21UIAppearanceContainer", "popToRootViewControllerAnimated"]
 - ["PSo21UIAppearanceContainer", "proportionOfLeftView"]
 - !private ["PSo21UIAppearanceContainer", "removeGestureRecognizer"]
 - ["PSo21UIAppearanceContainer", "sellHomeViewController"]
@@ -950,7 +939,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "navigationItem"]
 - ["PSo18UIContentContainer", "pan"]
 - !private ["PSo18UIContentContainer", "panGesture"]
-- !private ["PSo18UIContentContainer", "popToRootViewControllerAnimated"]
 - ["PSo18UIContentContainer", "proportionOfLeftView"]
 - ["PSo18UIContentContainer", "sellHomeViewController"]
 - ["PSo18UIContentContainer", "showHome"]
@@ -1028,7 +1016,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - ["PSo18UIFocusEnvironment", "pan"]
 - !private ["PSo18UIFocusEnvironment", "panGesture"]
-- !private ["PSo18UIFocusEnvironment", "popToRootViewControllerAnimated"]
 - ["PSo18UIFocusEnvironment", "proportionOfLeftView"]
 - !private ["PSo18UIFocusEnvironment", "removeGestureRecognizer"]
 - ["PSo18UIFocusEnvironment", "sellHomeViewController"]
@@ -1053,7 +1040,6 @@ depends-member:
 - !private ["CSo7UIImage", "init"]
 - !private ["CSo11UIImageView", "frame"]
 - !private ["CSo11UIImageView", "init"]
-- !private ["CSo22UINavigationController", "popToRootViewControllerAnimated"]
 - !private ["CSo22UINavigationController", "view"]
 - !private ["CSo22UINavigationController", "viewControllers"]
 - !private ["CSo16UINavigationItem", "leftBarButtonItem"]
@@ -1118,7 +1104,6 @@ depends-member:
 - !private ["CSo11UIResponder", "navigationItem"]
 - ["CSo11UIResponder", "pan"]
 - !private ["CSo11UIResponder", "panGesture"]
-- !private ["CSo11UIResponder", "popToRootViewControllerAnimated"]
 - ["CSo11UIResponder", "proportionOfLeftView"]
 - !private ["CSo11UIResponder", "removeGestureRecognizer"]
 - ["CSo11UIResponder", "sellHomeViewController"]
@@ -1170,7 +1155,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "navigationItem"]
 - ["PSo16UIStateRestoring", "pan"]
 - !private ["PSo16UIStateRestoring", "panGesture"]
-- !private ["PSo16UIStateRestoring", "popToRootViewControllerAnimated"]
 - ["PSo16UIStateRestoring", "proportionOfLeftView"]
 - ["PSo16UIStateRestoring", "sellHomeViewController"]
 - ["PSo16UIStateRestoring", "showHome"]
@@ -1239,7 +1223,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
 - ["PSo18UITraitEnvironment", "pan"]
 - !private ["PSo18UITraitEnvironment", "panGesture"]
-- !private ["PSo18UITraitEnvironment", "popToRootViewControllerAnimated"]
 - ["PSo18UITraitEnvironment", "proportionOfLeftView"]
 - !private ["PSo18UITraitEnvironment", "removeGestureRecognizer"]
 - ["PSo18UITraitEnvironment", "sellHomeViewController"]
@@ -1314,7 +1297,6 @@ depends-member:
 - !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "pan"]
 - !private ["CSo16UIViewController", "panGesture"]
-- !private ["CSo16UIViewController", "popToRootViewControllerAnimated"]
 - ["CSo16UIViewController", "proportionOfLeftView"]
 - ["CSo16UIViewController", "sellHomeViewController"]
 - ["CSo16UIViewController", "showHome"]
