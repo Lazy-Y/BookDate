@@ -11,7 +11,7 @@ import UIKit
 // View Controller
 class LeftViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let titlesDictionary = ["Scinece", "Finance", "Social Exp", "Art", "Engineering","recreation"]
+    let titlesDictionary = ["Profile", "My Class", "Payment", "Art", "Engineering","Log Out"]
 
     @IBOutlet weak var settingTableView: UITableView!
     @IBOutlet weak var avatarImageView: UIImageView!
@@ -36,14 +36,22 @@ class LeftViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     // 处理点击事件
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let viewController = Common.rootViewController
-        viewController.homeViewController.titleOfOtherPages = titlesDictionary[indexPath.row]
-        viewController.homeViewController.performSegueWithIdentifier("showOtherPages", sender: self)
-        Common.contactsVC.view.removeFromSuperview()
-        viewController.mainTabBarController.tabBar.hidden = true
-        viewController.mainTabBarController.selectedIndex = 0
-        viewController.showHome()
-        tableView.deselectRowAtIndexPath(indexPath, animated: false)
+        if (indexPath.row==0)//profile
+        {
+            
+        }
+        else
+        {
+            let viewController = Common.rootViewController
+            viewController.homeViewController.titleOfOtherPages = titlesDictionary[indexPath.row]
+            viewController.homeViewController.performSegueWithIdentifier("showOtherPages", sender: self)
+            Common.contactsVC.view.removeFromSuperview()
+            viewController.mainTabBarController.tabBar.hidden = true
+            viewController.mainTabBarController.selectedIndex = 0
+            viewController.showHome()
+            tableView.deselectRowAtIndexPath(indexPath, animated: false)
+        }
+        
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

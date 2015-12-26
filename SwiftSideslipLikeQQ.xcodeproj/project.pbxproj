@@ -24,6 +24,8 @@
 		B8A6E82C1C198A28006A9D74 /* BidHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6E82B1C198A28006A9D74 /* BidHomeViewController.swift */; };
 		B8A6E82E1C198A43006A9D74 /* SellHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6E82D1C198A43006A9D74 /* SellHomeViewController.swift */; };
 		B8A6E8301C198A52006A9D74 /* DateHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6E82F1C198A52006A9D74 /* DateHomeViewController.swift */; };
+		B8E2D6351C2EF56900990CCB /* BidSearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D6341C2EF56900990CCB /* BidSearchResultViewController.swift */; };
+		B8E2D6371C2F06C000990CCB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D6361C2F06C000990CCB /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		B8A6E82B1C198A28006A9D74 /* BidHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidHomeViewController.swift; sourceTree = "<group>"; };
 		B8A6E82D1C198A43006A9D74 /* SellHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellHomeViewController.swift; sourceTree = "<group>"; };
 		B8A6E82F1C198A52006A9D74 /* DateHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHomeViewController.swift; sourceTree = "<group>"; };
+		B8E2D6341C2EF56900990CCB /* BidSearchResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidSearchResultViewController.swift; sourceTree = "<group>"; };
+		B8E2D6361C2F06C000990CCB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4659332A1AD7FB0E00969878 /* HomeViewController.swift */,
 				4642DDB61ADA7BAA00D0F32B /* OtherPageViewController.swift */,
 				4659330E1AD7F60700969878 /* Main.storyboard */,
+				B8E2D6361C2F06C000990CCB /* ProfileViewController.swift */,
+				B8E2D6341C2EF56900990CCB /* BidSearchResultViewController.swift */,
 				B8A6E82B1C198A28006A9D74 /* BidHomeViewController.swift */,
 				B8A6E82D1C198A43006A9D74 /* SellHomeViewController.swift */,
 				B8A6E82F1C198A52006A9D74 /* DateHomeViewController.swift */,
@@ -250,7 +256,9 @@
 			files = (
 				4642DDB51ADA76DA00D0F32B /* SwiftColors.swift in Sources */,
 				466C00881AD832D9002ED354 /* Common.swift in Sources */,
+				B8E2D6351C2EF56900990CCB /* BidSearchResultViewController.swift in Sources */,
 				46617ED61AF3E4C5008F038F /* MainTabBarController.swift in Sources */,
+				B8E2D6371C2F06C000990CCB /* ProfileViewController.swift in Sources */,
 				B8A6E82C1C198A28006A9D74 /* BidHomeViewController.swift in Sources */,
 				4659330D1AD7F60700969878 /* ViewController.swift in Sources */,
 				466C008D1AD9071A002ED354 /* README.md in Sources */,

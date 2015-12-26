@@ -7,12 +7,12 @@ provides-member:
 - ["V19SwiftSideslipLikeQQ6Common", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ViewController"
 - "UIApplication"
-- "UIStoryboard"
-- "UIScreen"
-- "StringLiteralType"
 - "Common"
+- "ViewController"
+- "UIScreen"
+- "UIStoryboard"
+- "StringLiteralType"
 depends-member:
 - ["PSs9AnyObject", "applicationFrame"]
 - ["PSs9AnyObject", "init"]

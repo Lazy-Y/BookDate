@@ -15,6 +15,8 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationItem.leftBarButtonItem?.action = Selector("showLeft")
+        navigationItem.rightBarButtonItem?.action = Selector("showRight")
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +25,7 @@ class MainTabBarController: UITabBarController {
     }
     
     // 覆写了 TabBar 的点击效果
-    override func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
+ /*   override func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
         switch item.tag {
         case 0:
             Common.contactsVC.view.removeFromSuperview()
@@ -36,7 +38,7 @@ class MainTabBarController: UITabBarController {
         default:
             break
         }
-    }
+    }*/
 
     /*
     // MARK: - Navigation

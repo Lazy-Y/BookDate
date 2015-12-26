@@ -86,10 +86,11 @@ class ViewController: UIViewController {
         // 分别将 Navigation Bar 和 homeViewController 的视图加入 TabBar Controller 的视图
         mainView.addSubview(homeViewController.navigationController!.view)
         mainView.addSubview(homeViewController.view)
+
         
         ///// from Frank
         //tabBarView.addSubview(homeViewController.navigationController!.view)////////////////
-        //tabBarView.addSubview(homeViewController.view)
+        tabBarView.addSubview(homeViewController.view)
         
         // 在 TabBar Controller 的视图中，将 TabBar 视图提到最表层
         tabBarView.bringSubviewToFront(mainTabBarController.tabBar)
@@ -98,12 +99,14 @@ class ViewController: UIViewController {
         self.view.addSubview(mainView)
         
         // 分别指定 Navigation Bar 左右两侧按钮的事件
-        homeViewController.navigationItem.leftBarButtonItem?.action = Selector("showLeft")
-        homeViewController.navigationItem.rightBarButtonItem?.action = Selector("showRight")
+        //homeViewController.navigationItem.leftBarButtonItem?.action = Selector("showLeft") //from frank
+        //homeViewController.navigationItem.rightBarButtonItem?.action = Selector("showRight")
         
         mainTabBarController.navigationItem.leftBarButtonItem?.action = Selector("showLeft")
         mainTabBarController.navigationItem.rightBarButtonItem?.action = Selector("showRight")
         
+
+             
         // 给主视图绑定 UIPanGestureRecognizer
         let panGesture = homeViewController.panGesture
         panGesture.addTarget(self, action: Selector("pan:"))

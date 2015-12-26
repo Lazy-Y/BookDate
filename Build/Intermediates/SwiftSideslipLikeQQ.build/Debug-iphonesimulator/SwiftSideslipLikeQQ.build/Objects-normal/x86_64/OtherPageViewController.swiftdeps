@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C19SwiftSideslipLikeQQ23OtherPageViewController", ""]
 provides-dynamic-lookup:
-- "PageTitle"
 - "goBack"
-- "viewDidLoad"
 - "mainLabel"
 - "didReceiveMemoryWarning"
+- "PageTitle"
+- "viewDidLoad"
 depends-top-level:
-- !private "StringLiteralType"
 - "String"
-- !private "UIBarButtonItem"
-- !private "Common"
-- !private "UIBarButtonItemStyle"
-- !private "BooleanLiteralType"
-- !private "UIPanGestureRecognizer"
 - "UIViewController"
+- !private "UIBarButtonItemStyle"
+- !private "UIBarButtonItem"
+- !private "StringLiteralType"
+- !private "Common"
 - "OtherPageViewController"
+- !private "BooleanLiteralType"
 - "UILabel"
+- !private "UIPanGestureRecognizer"
 depends-member:
 - !private ["PSs9AnyObject", "Common"]
 - ["PSs9AnyObject", "PageTitle"]

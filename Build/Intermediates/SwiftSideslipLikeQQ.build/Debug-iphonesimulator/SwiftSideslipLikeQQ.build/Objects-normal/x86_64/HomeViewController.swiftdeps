@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C19SwiftSideslipLikeQQ18HomeViewController", ""]
 provides-dynamic-lookup:
+- "prepareForSegue"
 - "titleOfOtherPages"
+- "viewDidLoad"
 - "panGesture"
 - "didReceiveMemoryWarning"
-- "prepareForSegue"
-- "viewDidLoad"
 depends-top-level:
-- !private "OtherPageViewController"
-- "UIViewController"
-- "AnyObject"
 - "UIStoryboardSegue"
-- !private "=="
+- !private "OtherPageViewController"
 - "UIPanGestureRecognizer"
-- !private "Array"
+- "AnyObject"
+- !private "=="
 - !private "UISegmentedControl"
 - "StringLiteralType"
+- !private "Array"
 - "HomeViewController"
+- "UIViewController"
 depends-member:
 - !private ["PSs9AnyObject", "PageTitle"]
 - !private ["PSs9AnyObject", "UISegmentedControl"]

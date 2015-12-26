@@ -18,7 +18,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // 设置中间 segmentView 视图
-        let segmentView = UISegmentedControl(items: ["My Vote", "Other's vote"])
+        let segmentView = UISegmentedControl(items: ["Log In", "Sign Up"])
         segmentView.selectedSegmentIndex = 0
         segmentView.setWidth(60, forSegmentAtIndex: 0)
         segmentView.setWidth(60, forSegmentAtIndex: 1)
@@ -40,6 +40,11 @@ class HomeViewController: UIViewController {
             if let a = segue.destinationViewController as? OtherPageViewController {
                 a.PageTitle = titleOfOtherPages
             }
+        }
+        else if segue.identifier == "profile"
+        {
+           
+            //let profileController:ProfileViewController = segue.destinationViewController as? ProfileViewController
         }
     }
     

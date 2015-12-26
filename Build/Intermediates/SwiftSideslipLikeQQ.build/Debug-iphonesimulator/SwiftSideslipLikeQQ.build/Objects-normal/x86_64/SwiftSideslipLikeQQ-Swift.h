@@ -120,6 +120,15 @@ SWIFT_CLASS("_TtC19SwiftSideslipLikeQQ21BidHomeViewController")
 @end
 
 
+SWIFT_CLASS("_TtC19SwiftSideslipLikeQQ29BidSearchResultViewController")
+@interface BidSearchResultViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC19SwiftSideslipLikeQQ22DateHomeViewController")
 @interface DateHomeViewController : UIViewController
 - (void)viewDidLoad;
@@ -164,14 +173,11 @@ SWIFT_CLASS("_TtC19SwiftSideslipLikeQQ18LeftViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITabBar;
-@class UITabBarItem;
 
 SWIFT_CLASS("_TtC19SwiftSideslipLikeQQ20MainTabBarController")
 @interface MainTabBarController : UITabBarController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (void)tabBar:(UITabBar * __nonnull)tabBar didSelectItem:(UITabBarItem * __nonnull)item;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -185,6 +191,15 @@ SWIFT_CLASS("_TtC19SwiftSideslipLikeQQ23OtherPageViewController")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)goBack;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC19SwiftSideslipLikeQQ21ProfileViewController")
+@interface ProfileViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

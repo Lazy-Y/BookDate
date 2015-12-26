@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BidSearchResultViewController"
+provides-nominal:
+- "C19SwiftSideslipLikeQQ29BidSearchResultViewController"
+provides-member:
+- ["C19SwiftSideslipLikeQQ29BidSearchResultViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- !private "Selector"
+- !private "StringLiteralType"
+- "BidSearchResultViewController"
+- "UIViewController"
+depends-member:
+- !private ["PSs9AnyObject", "Selector"]
+- !private ["PSs9AnyObject", "action"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "navigationItem"]
+- !private ["PSs9AnyObject", "rightBarButtonItem"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["C19SwiftSideslipLikeQQ29BidSearchResultViewController", "Selector"]
+- ["C19SwiftSideslipLikeQQ29BidSearchResultViewController", "deinit"]
+- ["C19SwiftSideslipLikeQQ29BidSearchResultViewController", "didReceiveMemoryWarning"]
+- ["C19SwiftSideslipLikeQQ29BidSearchResultViewController", "init"]
+- !private ["C19SwiftSideslipLikeQQ29BidSearchResultViewController", "navigationItem"]
+- ["C19SwiftSideslipLikeQQ29BidSearchResultViewController", "viewDidLoad"]
+- !private ["PSs11CVarArgType", "Selector"]
+- !private ["PSs11CVarArgType", "action"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "navigationItem"]
+- !private ["PSs11CVarArgType", "rightBarButtonItem"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "Selector"]
+- !private ["PSs23CustomStringConvertible", "action"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "navigationItem"]
+- !private ["PSs23CustomStringConvertible", "rightBarButtonItem"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Selector"]
+- !private ["PSs9Equatable", "action"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "navigationItem"]
+- !private ["PSs9Equatable", "rightBarButtonItem"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs8Hashable", "Selector"]
+- !private ["PSs8Hashable", "action"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "navigationItem"]
+- !private ["PSs8Hashable", "rightBarButtonItem"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "Selector"]
+- !private ["PSo8NSCoding", "action"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "rightBarButtonItem"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "Selector"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "Selector"]
+- !private ["CSo8NSObject", "action"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "rightBarButtonItem"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Selector"]
+- !private ["PSo16NSObjectProtocol", "action"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs21NilLiteralConvertible", "init"]
+- !private ["V10ObjectiveC8Selector", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "action"]
+- !private ["PSo12UIAppearance", "action"]
+- !private ["PSo21UIAppearanceContainer", "Selector"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo15UIBarButtonItem", "action"]
+- !private ["CSo9UIBarItem", "action"]
+- !private ["PSo18UIContentContainer", "Selector"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "Selector"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
+- !private ["CSo11UIResponder", "Selector"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "Selector"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "Selector"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo16UIViewController", "Selector"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C19SwiftSideslipLikeQQ29BidSearchResultViewController"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs21NilLiteralConvertible"
+- !private "V10ObjectiveC8Selector"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "CSo9UIBarItem"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "42456c55e7ea0185d5cf59790fe76d0e"
